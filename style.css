@@ -8,6 +8,12 @@
   /* NEUTRAL */
   --clr-gray-50: 204 43% 93%;
   --clr-blue-300: 218 22% 67%;
+
+  /* FONT */
+  --ff-sans: 'Karla', sans-serif;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
 }
 
 /* RESET */
