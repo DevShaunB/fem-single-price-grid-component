@@ -1,3 +1,17 @@
+/* VARIABLES */
+
+:root {
+  /* COLORS */
+  /* PRIMARY */
+  --clr-yellow-400: 71 73% 54%;
+  --clr-cyan-500: 179 62% 43%;
+  /* NEUTRAL */
+  --clr-gray-50: 204 43% 93%;
+  --clr-blue-300: 218 22% 67%;
+}
+
+/* RESET */
+
 *,
 *::before,
 *::after {
