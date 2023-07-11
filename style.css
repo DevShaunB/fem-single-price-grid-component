@@ -8,6 +8,7 @@
   /* NEUTRAL */
   --clr-gray-50: 204 43% 93%;
   --clr-blue-300: 218 22% 67%;
+  --clr-white: 0 0% 100%;
 
   /* FONT */
   --ff-sans: 'Karla', sans-serif;
@@ -39,4 +40,22 @@ a {
 
 ul {
   list-style: none;
+}
+
+/* BASE */
+body {
+  font-family: var(--ff-sans);
+  padding: 2em;
+  background-color: hsl(var(--clr-gray-50));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* MAIN */
+
+.grid-component {
+  background-color: hsl(var(--clr-white));
+  border-radius: 0.3em;
+  padding: 1.75em 1.5em 1.625em;
 }
