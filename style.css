@@ -45,6 +45,8 @@ ul {
 /* BASE */
 body {
   font-family: var(--ff-sans);
+  font-weight: var(--fw-regular);
+  letter-spacing: -1%;
   padding: 2em;
   background-color: hsl(var(--clr-gray-50));
   display: flex;
@@ -58,4 +60,29 @@ body {
   background-color: hsl(var(--clr-white));
   border-radius: 0.3em;
   padding: 1.75em 1.5em 1.625em;
+  box-shadow: 0 1em 1em hsl(var(--clr-blue-300) / 0.2);
+}
+
+.grid-component__title {
+  font-size: 1.25rem;
+  font-weight: var(--fw-bold);
+  color: hsl(var(--clr-cyan-500));
+}
+
+.grid-component__top {
+  margin-bottom: 2em;
+}
+
+.grid-component__top-title {
+  font-size: 0.94rem;
+  font-weight: var(--fw-bold);
+  line-height: 1.35;
+  margin-top: 1.6em;
+  color: hsl(var(--clr-yellow-400));
+}
+
+.grid-component__top-desc {
+  font-size: 0.875rem;
+  line-height: 1.85;
+  margin-top: 1.143em;
 }
