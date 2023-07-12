@@ -35,6 +35,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-component-using-css-grid-PpIouG4AMW](https://www.frontendmentor.io/solutions/single-price-grid-component-using-css-grid-PpIouG4AMW)
 - Live Site URL: [https://devshaunb.github.io/fem-single-price-grid-component/](https://devshaunb.github.io/fem-single-price-grid-component/)
 
 ## Reference
