@@ -155,6 +155,47 @@ body {
   margin-bottom: 0.286em;
 }
 
-.grid-component__list-item:last-child {
-  margin-bottom: 0;
+@media screen and (min-width: 40em) {
+  /* BASE */
+
+  .container {
+    padding-inline: 2.5em;
+  }
+
+  /* MAIN */
+
+  .grid-component {
+    max-width: 39.688em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 2.5em;
+    border-radius: 0.5em;
+  }
+
+  .grid-component__title {
+    grid-column: 1 / span 2;
+    font-size: 1.5rem;
+    padding-inline: 1.67em;
+  }
+
+  .grid-component__top {
+    grid-column: 1 / span 2;
+    margin-bottom: 2.5em;
+  }
+
+  .grid-component__top-title {
+    font-size: 1.125rem;
+    margin-top: 1.278em;
+  }
+
+  .grid-component__top-desc {
+    font-size: 1rem;
+    line-height: 1.65;
+    margin-top: 0.56em;
+  }
+
+  .grid-component__left,
+  .grid-component__right {
+    padding-block: 2.5em;
+  }
 }
