@@ -43,10 +43,11 @@ ul {
 }
 
 /* BASE */
+
 body {
   font-family: var(--ff-sans);
   font-weight: var(--fw-regular);
-  letter-spacing: -1%;
+  letter-spacing: -0.0125em;
   padding: 2em;
   background-color: hsl(var(--clr-gray-50));
   display: flex;
@@ -54,19 +55,25 @@ body {
   justify-content: center;
 }
 
+.container {
+  padding-inline: 1.5em;
+}
+
 /* MAIN */
 
 .grid-component {
   background-color: hsl(var(--clr-white));
   border-radius: 0.3em;
-  padding: 1.75em 1.5em 1.625em;
-  box-shadow: 0 1em 1em hsl(var(--clr-blue-300) / 0.2);
+  padding-top: 1.75em;
+  box-shadow: 0 1em 1em hsl(var(--clr-blue-300) / 0.3);
+  overflow: hidden;
 }
 
 .grid-component__title {
   font-size: 1.25rem;
   font-weight: var(--fw-bold);
   color: hsl(var(--clr-cyan-500));
+  padding-inline: 1.5em;
 }
 
 .grid-component__top {
@@ -85,4 +92,69 @@ body {
   font-size: 0.875rem;
   line-height: 1.85;
   margin-top: 1.143em;
+  color: hsl(var(--clr-blue-300));
+}
+
+.grid-component__left {
+  background-color: hsl(var(--clr-cyan-500));
+  padding-block: 1.56em 1.44em;
+}
+
+.grid-component__left-title {
+  font-size: 1.125rem;
+  font-weight: var(--fw-bold);
+  color: hsl(var(--clr-gray-50));
+  margin-bottom: 0.94em;
+}
+
+.grid-component__price {
+  display: flex;
+  align-items: center;
+  gap: 0.69em;
+  margin-bottom: 0.44em;
+  color: hsl(var(--clr-gray-50) / 0.75);
+}
+
+.grid-component__value {
+  font-size: 2rem;
+  font-weight: var(--fw-bold);
+  color: hsl(var(--clr-gray-50));
+}
+
+.grid-component__left-desc {
+  color: hsl(var(--clr-gray-50));
+  margin-bottom: 1.88em;
+}
+
+.grid-component__cta {
+  width: 100%;
+  font-weight: var(--fw-bold);
+  text-align: center;
+  background-color: hsl(var(--clr-yellow-400));
+  color: hsl(var(--clr-gray-50));
+  padding-block: 0.94em 0.88em;
+  border-radius: 0.38em;
+  box-shadow: 0 0.5em 0.5em hsl(0, 0%, 0%, 0.1);
+}
+
+.grid-component__right {
+  background-color: hsl(var(--clr-cyan-500) / 0.85);
+  padding-block: 1.625em;
+}
+
+.grid-component__right-title {
+  font-size: 1.125rem;
+  font-weight: var(--fw-bold);
+  margin-bottom: 1.056em;
+  color: hsl(var(--clr-gray-50));
+}
+
+.grid-component__list-item {
+  color: hsl(var(--clr-gray-50));
+  font-size: 0.875rem;
+  margin-bottom: 0.286em;
+}
+
+.grid-component__list-item:last-child {
+  margin-bottom: 0;
 }
