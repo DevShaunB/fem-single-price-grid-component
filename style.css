@@ -136,6 +136,11 @@ body {
   padding-block: 0.94em 0.88em;
   border-radius: 0.38em;
   box-shadow: 0 0.5em 0.5em hsl(0, 0%, 0%, 0.1);
+  transition: box-shadow 0.2s;
+}
+
+.grid-component__cta:where(:hover, :focus) {
+  box-shadow: none;
 }
 
 .grid-component__right {
